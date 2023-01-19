@@ -11,6 +11,7 @@ function App() {
   
   function addHandle(){
     if(toDo.trim()===''){
+      alert("Enter Anything")
       return;
     }
     setToDos([...toDos,{id:Date.now(),text:toDo,status:false}])
